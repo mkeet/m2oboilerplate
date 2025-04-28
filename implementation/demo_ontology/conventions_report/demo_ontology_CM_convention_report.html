@@ -56,196 +56,34 @@
                   Generalisations</em>. Each major section lists model items that need correction of errors
                or consideration of warnings.</p>
             <p>The UML model in file <em>demo_ontology_CM.xml</em> 
-               was tested at 14:01 on April 28, 2025.</p>
+               was tested at 14:33 on April 28, 2025.</p>
          </div>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="nomenclature">Nomenclature</h1>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="classNames">Class names</h2>
          <ul xmlns:f="http://https://github.com/costezki/model2owl#" class="display-in-two-columns">
-            <li><a href="#AssocClass1">AssocClass1</a></li>
-            <li><a href="#Bicycle">Bicycle</a></li>
-            <li><a href="#Boat">Boat</a></li>
-            <li><a href="#BoringWheel">BoringWheel</a></li>
-            <li><a href="#Car">Car</a></li>
             <li><a href="#Class A">Class A</a></li>
-            <li><a href="#Class B">Class B</a></li>
-            <li><a href="#Class C">Class C</a></li>
-            <li><a href="#ClassForQualAssoc">ClassForQualAssoc</a></li>
-            <li><a href="#ClassForSpecAssoc">ClassForSpecAssoc</a></li>
-            <li><a href="#Contractor">Contractor</a></li>
-            <li><a href="#Cycle">Cycle</a></li>
-            <li><a href="#FancyWheel">FancyWheel</a></li>
-            <li><a href="#Insurance">Insurance</a></li>
-            <li><a href="#Monocycle">Monocycle (2)</a></li>
-            <li><a href="#PartsClass">PartsClass</a></li>
-            <li><a href="#RentalCompany">RentalCompany</a></li>
-            <li><a href="#SomeOtherClass">SomeOtherClass</a></li>
-            <li><a href="#Vehicle">Vehicle</a></li>
-            <li><a href="#Wheel">Wheel (2)</a></li>
-            <li><a href="#YetAnotherC">YetAnotherC</a></li>
+            <li><a href="#Class A.1">Class A.1</a></li>
+            <li><a href="#Class A.1.1">Class A.1.1</a></li>
+            <li><a href="#Class A.1.2">Class A.1.2</a></li>
+            <li><a href="#Class A.1.3">Class A.1.3</a></li>
+            <li><a href="#Class A.2">Class A.2</a></li>
+            <li><a href="#Class A.2.1">Class A.2.1</a></li>
+            <li><a href="#Class A.2.2">Class A.2.2</a></li>
+            <li><a href="#Class A.2.3">Class A.2.3</a></li>
+            <li><a href="#Class A.3">Class A.3</a></li>
+            <li><a href="#Class A.3.1">Class A.3.1</a></li>
+            <li><a href="#Class A.3.2">Class A.3.2</a></li>
+            <li><a href="#Class A.3.3">Class A.3.3</a></li>
+            <li><a href="#Class A.4">Class A.4</a></li>
+            <li><a href="#Class A.4.1">Class A.4.1</a></li>
+            <li><a href="#Class A.4.2">Class A.4.2</a></li>
+            <li><a href="#Class A.4.3">Class A.4.3</a></li>
          </ul>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="classAttributesNames">Class attribute names</h2>
-         <ul xmlns:f="http://https://github.com/costezki/model2owl#">
-            <li><a href="#attribute-Attribute A-usage">Attribute A (3)</a><ul><em>
-                     <li>Class A (int) [1..1]</li>
-                     <li>Class B (int) [1..1]</li>
-                     <li>Class C (int) [1..1]</li></em></ul>
-            </li>
-            <li><a href="#attribute-Attribute B-usage">Attribute B (3)</a><ul><em>
-                     <li>Class A (int) [1..1]</li>
-                     <li>Class B (int) [1..1]</li>
-                     <li>Class C (int) [1..1]</li></em></ul>
-            </li>
-            <li><a href="#attribute-colour">colour</a></li>
-            <li><a href="#attribute-date">date</a></li>
-            <li><a href="#attribute-engravedID">engravedID</a></li>
-            <li><a href="#attribute-ID">ID</a></li>
-            <li><a href="#attribute-name-usage">name (3)</a><ul><em>
-                     <li>AssocClass1 (short) [1..1]</li>
-                     <li>RentalCompany (long) [1..1]</li>
-                     <li>Vehicle (short) [1..1]</li></em></ul>
-            </li>
-            <li><a href="#attribute-nickName">nickName</a></li>
-         </ul>
+         <ul xmlns:f="http://https://github.com/costezki/model2owl#"></ul>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="connectorNames">Connector names</h2>
-         <ul xmlns:f="http://https://github.com/costezki/model2owl#">
-            <li>Association A</li>
-            <li>Association B</li>
-            <li><a href="#connector-for">for (2)</a><ul><em>
-                     <li>Insurance -&gt; Vehicle [1..*]</li>
-                     <li>SomeOtherClass [,0..*] &lt;- Insurance</li></em></ul>
-            </li>
-            <li>forSub</li>
-            <li><a href="#connector-hasIns">hasIns (2)</a><ul><em>
-                     <li>Insurance [,0..*] &lt;- Vehicle</li>
-                     <li>SomeOtherClass -&gt; Insurance [0..*]</li></em></ul>
-            </li>
-            <li>hasInsSub</li>
-            <li>lends</li>
-            <li>ownedby</li>
-            <li>part</li>
-            <li>ppart</li>
-            <li>role a</li>
-            <li>role b</li>
-            <li>role c</li>
-            <li>role d</li>
-            <li>source</li>
-            <li>target</li>
-            <li>toAC</li>
-            <li>toIns</li>
-            <li>toOtherC</li>
-            <li><a href="#connector-whole">whole (2)</a><ul><em>
-                     <li>Contractor -&gt; RentalCompany []</li>
-                     <li>Wheel -&gt; Cycle []</li></em></ul>
-            </li>
-         </ul>
+         <ul xmlns:f="http://https://github.com/costezki/model2owl#"></ul>
          <h1 class="selector-heading" id="classes">Classes</h1>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="AssocClass1">AssocClass1</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name AssocClass1 does not match the pattern. The name should respect the syntax
-                  prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element AssocClass1 is missing a prefix. The name should comprise a prefix
-                  respecing the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>AssocClass1 is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class AssocClass1 is is disconnected. A class should be connected to other elements.</dd>
-            </dl>
-            <dl id="attribute-date">
-               <dt>date</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name date does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element date is missing a prefix. The name should comprise a prefix respecing
-                  the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>date is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name date is not unique. The Concept names should be unique within the model.
-                  The following specifies the names of the which things are not to be reused as the
-                  names of which other things: attributes -&gt; elements, connector roles (dependency and
-                  association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type date type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-            </dl>
-            <dl id="attribute-name">
-               <dt>name</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name name does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element name is missing a prefix. The name should comprise a prefix respecing
-                  the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>name is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type short type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Bicycle">Bicycle</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Bicycle does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Bicycle is missing a prefix. The name should comprise a prefix
-                  respecing the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Bicycle is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Bicycle has no attributes provided. A class should define some attributes.</dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Boat">Boat</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Boat does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Boat is missing a prefix. The name should comprise a prefix respecing
-                  the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Boat is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Boat has no attributes provided. A class should define some attributes.</dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="BoringWheel">BoringWheel</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name BoringWheel does not match the pattern. The name should respect the syntax
-                  prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element BoringWheel is missing a prefix. The name should comprise a prefix
-                  respecing the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>BoringWheel is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class BoringWheel has no attributes provided. A class should define some attributes.</dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Car">Car</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Car does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Car is missing a prefix. The name should comprise a prefix respecing
-                  the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Car is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Car has no attributes provided. A class should define some attributes.</dd>
-            </dl>
-         </section>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A">Class A</h2>
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
@@ -260,690 +98,344 @@
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A contains token delimiters. It is best if the names
                   are camel cased and delimiters removed.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A has no attributes provided. A class should define some attributes.</dd>
             </dl>
-            <dl id="attribute-Attribute A">
-               <dt>Attribute A</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Attribute A does not match the pattern. The name should respect the syntax
+         </section>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.1">Class A.1</h2>
+         <section xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dl>
+               <dt>Unmet class conventions</dt>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.1 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Attribute A is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.1 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Attribute A contains token delimiters. It is best if the names
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.1 contains token delimiters. It is best if the names
                   are camel cased and delimiters removed.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Attribute A is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute name Attribute A is invalid. The attribute name must start with a lower
-                  case.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type int type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute Attribute A is non-public. Attributes shall be public </dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.1 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.1 has no attributes provided. A class should define some attributes.</dd>
             </dl>
-            <dl id="attribute-Attribute B">
-               <dt>Attribute B</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Attribute B does not match the pattern. The name should respect the syntax
+         </section>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.1.1">Class A.1.1</h2>
+         <section xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dl>
+               <dt>Unmet class conventions</dt>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.1.1 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Attribute B is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.1.1 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Attribute B contains token delimiters. It is best if the names
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.1.1 contains token delimiters. It is best if the names
                   are camel cased and delimiters removed.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Attribute B is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute name Attribute B is invalid. The attribute name must start with a lower
-                  case.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type int type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute Attribute B is non-public. Attributes shall be public </dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.1.1 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.1.1 has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class B">Class B</h2>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.1.2">Class A.1.2</h2>
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class B does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class B is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.1.2 does not match the pattern. The name should respect the syntax
+                  prefix:localSegment (similar to the XML QName).</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.1.2 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class B contains token delimiters. It is best if the names
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.1.2 contains token delimiters. It is best if the names
                   are camel cased and delimiters removed.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class B is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.1.2 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.1.2 has no attributes provided. A class should define some attributes.</dd>
             </dl>
-            <dl id="attribute-Attribute A">
-               <dt>Attribute A</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Attribute A does not match the pattern. The name should respect the syntax
+         </section>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.1.3">Class A.1.3</h2>
+         <section xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dl>
+               <dt>Unmet class conventions</dt>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.1.3 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Attribute A is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.1.3 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Attribute A contains token delimiters. It is best if the names
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.1.3 contains token delimiters. It is best if the names
                   are camel cased and delimiters removed.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Attribute A is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute name Attribute A is invalid. The attribute name must start with a lower
-                  case.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type int type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute Attribute A is non-public. Attributes shall be public </dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.1.3 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.1.3 has no attributes provided. A class should define some attributes.</dd>
             </dl>
-            <dl id="attribute-Attribute B">
-               <dt>Attribute B</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Attribute B does not match the pattern. The name should respect the syntax
+         </section>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.2">Class A.2</h2>
+         <section xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dl>
+               <dt>Unmet class conventions</dt>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.2 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Attribute B is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.2 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Attribute B contains token delimiters. It is best if the names
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.2 contains token delimiters. It is best if the names
                   are camel cased and delimiters removed.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Attribute B is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute name Attribute B is invalid. The attribute name must start with a lower
-                  case.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type int type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute Attribute B is non-public. Attributes shall be public </dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.2 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.2 has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class C">Class C</h2>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.2.1">Class A.2.1</h2>
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class C does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class C is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.2.1 does not match the pattern. The name should respect the syntax
+                  prefix:localSegment (similar to the XML QName).</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.2.1 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class C contains token delimiters. It is best if the names
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.2.1 contains token delimiters. It is best if the names
                   are camel cased and delimiters removed.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class C is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.2.1 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.2.1 has no attributes provided. A class should define some attributes.</dd>
             </dl>
-            <dl id="attribute-Attribute A">
-               <dt>Attribute A</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Attribute A does not match the pattern. The name should respect the syntax
+         </section>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.2.2">Class A.2.2</h2>
+         <section xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dl>
+               <dt>Unmet class conventions</dt>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.2.2 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Attribute A is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.2.2 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Attribute A contains token delimiters. It is best if the names
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.2.2 contains token delimiters. It is best if the names
                   are camel cased and delimiters removed.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Attribute A is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute name Attribute A is invalid. The attribute name must start with a lower
-                  case.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type int type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute Attribute A is non-public. Attributes shall be public </dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.2.2 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.2.2 has no attributes provided. A class should define some attributes.</dd>
             </dl>
-            <dl id="attribute-Attribute B">
-               <dt>Attribute B</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Attribute B does not match the pattern. The name should respect the syntax
+         </section>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.2.3">Class A.2.3</h2>
+         <section xmlns:f="http://https://github.com/costezki/model2owl#">
+            <dl>
+               <dt>Unmet class conventions</dt>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.2.3 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Attribute B is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.2.3 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Attribute B contains token delimiters. It is best if the names
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.2.3 contains token delimiters. It is best if the names
                   are camel cased and delimiters removed.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Attribute B is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute name Attribute B is invalid. The attribute name must start with a lower
-                  case.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type int type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute Attribute B is non-public. Attributes shall be public </dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.2.3 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.2.3 has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="ClassForQualAssoc">ClassForQualAssoc</h2>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.3">Class A.3</h2>
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name ClassForQualAssoc does not match the pattern. The name should respect the
-                  syntax prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element ClassForQualAssoc is missing a prefix. The name should comprise
-                  a prefix respecing the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>ClassForQualAssoc is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class ClassForQualAssoc has no attributes provided. A class should define some
-                  attributes.</dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="ClassForSpecAssoc">ClassForSpecAssoc</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name ClassForSpecAssoc does not match the pattern. The name should respect the
-                  syntax prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element ClassForSpecAssoc is missing a prefix. The name should comprise
-                  a prefix respecing the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>ClassForSpecAssoc is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class ClassForSpecAssoc has no attributes provided. A class should define some
-                  attributes.</dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Contractor">Contractor</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Contractor does not match the pattern. The name should respect the syntax
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.3 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Contractor is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.3 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Contractor is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Contractor has no attributes provided. A class should define some attributes.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.3 contains token delimiters. It is best if the names
+                  are camel cased and delimiters removed.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.3 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.3 has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Cycle">Cycle</h2>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.3.1">Class A.3.1</h2>
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Cycle does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Cycle is missing a prefix. The name should comprise a prefix respecing
-                  the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Cycle is missing a description. All concepts should be defined or described.</dd>
-            </dl>
-            <dl id="attribute-colour">
-               <dt>colour</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name colour does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element colour is missing a prefix. The name should comprise a prefix
-                  respecing the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>colour is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type short type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute colour is non-public. Attributes shall be public </dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="FancyWheel">FancyWheel</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name FancyWheel does not match the pattern. The name should respect the syntax
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.3.1 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element FancyWheel is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.3.1 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>FancyWheel is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class FancyWheel has no attributes provided. A class should define some attributes.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.3.1 contains token delimiters. It is best if the names
+                  are camel cased and delimiters removed.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.3.1 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.3.1 has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Insurance">Insurance</h2>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.3.2">Class A.3.2</h2>
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Insurance does not match the pattern. The name should respect the syntax
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.3.2 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Insurance is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.3.2 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Insurance is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Insurance has no attributes provided. A class should define some attributes.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.3.2 contains token delimiters. It is best if the names
+                  are camel cased and delimiters removed.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.3.2 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.3.2 has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Monocycle">Monocycle</h2>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.3.3">Class A.3.3</h2>
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Monocycle does not match the pattern. The name should respect the syntax
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.3.3 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Monocycle is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.3.3 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Monocycle is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Monocycle is not unique. The Concept names should be unique within the model.
-                  The following specifies the names of the which things are not to be reused as the
-                  names of which other things: elements (Class, Datatype, Enumeration, Object) -&gt; elements,
-                  attributes, connector roles (dependency and association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Monocycle has no attributes provided. A class should define some attributes.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Monocycle is is disconnected. A class should be connected to other elements.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.3.3 contains token delimiters. It is best if the names
+                  are camel cased and delimiters removed.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.3.3 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.3.3 has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Monocycle">Monocycle</h2>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.4">Class A.4</h2>
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Monocycle does not match the pattern. The name should respect the syntax
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.4 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Monocycle is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.4 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Monocycle is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Monocycle is not unique. The Concept names should be unique within the model.
-                  The following specifies the names of the which things are not to be reused as the
-                  names of which other things: elements (Class, Datatype, Enumeration, Object) -&gt; elements,
-                  attributes, connector roles (dependency and association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Monocycle has no attributes provided. A class should define some attributes.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.4 contains token delimiters. It is best if the names
+                  are camel cased and delimiters removed.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.4 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.4 has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="PartsClass">PartsClass</h2>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.4.1">Class A.4.1</h2>
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name PartsClass does not match the pattern. The name should respect the syntax
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.4.1 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element PartsClass is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.4.1 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>PartsClass is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The name (PartsClass) is possibly in plural grammatical number. Names shall be usually
-                  provided in singular number.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class PartsClass has no attributes provided. A class should define some attributes.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.4.1 contains token delimiters. It is best if the names
+                  are camel cased and delimiters removed.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.4.1 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.4.1 has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="RentalCompany">RentalCompany</h2>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.4.2">Class A.4.2</h2>
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name RentalCompany does not match the pattern. The name should respect the syntax
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.4.2 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element RentalCompany is missing a prefix. The name should comprise a
-                  prefix respecing the syntax prefix:localSegment.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.4.2 is missing a prefix. The name should comprise a prefix
+                  respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>RentalCompany is missing a description. All concepts should be defined or described.</dd>
-            </dl>
-            <dl id="attribute-name">
-               <dt>name</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name name does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element name is missing a prefix. The name should comprise a prefix respecing
-                  the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>name is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type long type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.4.2 contains token delimiters. It is best if the names
+                  are camel cased and delimiters removed.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.4.2 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.4.2 has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="SomeOtherClass">SomeOtherClass</h2>
+         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Class A.4.3">Class A.4.3</h2>
          <section xmlns:f="http://https://github.com/costezki/model2owl#">
             <dl>
                <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name SomeOtherClass does not match the pattern. The name should respect the syntax
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Class A.4.3 does not match the pattern. The name should respect the syntax
                   prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element SomeOtherClass is missing a prefix. The name should comprise a
-                  prefix respecing the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>SomeOtherClass is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The name (SomeOtherClass) is possibly in plural grammatical number. Names shall be
-                  usually provided in singular number.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class SomeOtherClass has no attributes provided. A class should define some attributes.</dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Vehicle">Vehicle</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Vehicle does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Vehicle is missing a prefix. The name should comprise a prefix
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Class A.4.3 is missing a prefix. The name should comprise a prefix
                   respecing the syntax prefix:localSegment.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
                   alphanumeric characters [a-zA-Z0-9]+.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Vehicle is missing a description. All concepts should be defined or described.</dd>
-            </dl>
-            <dl id="attribute-engravedID">
-               <dt>engravedID</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name engravedID does not match the pattern. The name should respect the syntax
-                  prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element engravedID is missing a prefix. The name should comprise a prefix
-                  respecing the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>engravedID is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type int type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-            </dl>
-            <dl id="attribute-name">
-               <dt>name</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name name does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element name is missing a prefix. The name should comprise a prefix respecing
-                  the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>name is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type short type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-            </dl>
-            <dl id="attribute-nickName">
-               <dt>nickName</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name nickName does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element nickName is missing a prefix. The name should comprise a prefix
-                  respecing the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>nickName is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type long type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute nickName is non-public. Attributes shall be public </dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Wheel">Wheel</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Wheel does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Wheel is missing a prefix. The name should comprise a prefix respecing
-                  the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Wheel is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Wheel is not unique. The Concept names should be unique within the model.
-                  The following specifies the names of the which things are not to be reused as the
-                  names of which other things: elements (Class, Datatype, Enumeration, Object) -&gt; elements,
-                  attributes, connector roles (dependency and association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Wheel is is disconnected. A class should be connected to other elements.</dd>
-            </dl>
-            <dl id="attribute-ID">
-               <dt>ID</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name ID does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element ID is missing a prefix. The name should comprise a prefix respecing
-                  the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>ID is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute name ID is invalid. The attribute name must start with a lower case.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The attribute type int type is invalid. Attributes must use types that are either:
-                  (a) XSD or RDF datatypes or (b) belonging to a shortlist of custom URIs (datatypes
-                  or classes).</dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="Wheel">Wheel</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Wheel does not match the pattern. The name should respect the syntax prefix:localSegment
-                  (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Wheel is missing a prefix. The name should comprise a prefix respecing
-                  the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Wheel is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Wheel is not unique. The Concept names should be unique within the model.
-                  The following specifies the names of the which things are not to be reused as the
-                  names of which other things: elements (Class, Datatype, Enumeration, Object) -&gt; elements,
-                  attributes, connector roles (dependency and association)</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Wheel has no attributes provided. A class should define some attributes.</dd>
-            </dl>
-         </section>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="YetAnotherC">YetAnotherC</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet class conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name YetAnotherC does not match the pattern. The name should respect the syntax
-                  prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element YetAnotherC is missing a prefix. The name should comprise a prefix
-                  respecing the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>YetAnotherC is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class YetAnotherC has no attributes provided. A class should define some attributes.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment  , is invalid. Please provide a concise label using alphanumeric
+                  characters [a-zA-Z0-9_\-\s]+, preferably in CamelCase, or possibly with tokens delimited
+                  by single spaces.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The local name segment Class A.4.3 contains token delimiters. It is best if the names
+                  are camel cased and delimiters removed.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Class A.4.3 is missing a description. All concepts should be defined or described.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class Class A.4.3 has no attributes provided. A class should define some attributes.</dd>
             </dl>
          </section>
          <h1 class="selector-heading" id="enumerations">Enumerations</h1>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">Enumeration1</h2>
-         <section xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dl>
-               <dt>Unmet enumeration conventions</dt>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name Enumeration1 does not match the pattern. The name should respect the syntax
-                  prefix:localSegment (similar to the XML QName).</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element Enumeration1 is missing a prefix. The name should comprise a prefix
-                  respecing the syntax prefix:localSegment.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-                  alphanumeric characters [a-zA-Z0-9]+.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Enumeration1 is missing a description. All concepts should be defined or described.</dd>
-               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The enumeration Enumeration1 does not have a correct constraint level (either permissive
-                  or restrictive) set as a tag with the epo:constraintLevel key. The permissive level
-                  will be used as a fallback value.</dd>
-            </dl>
-         </section>
          <h1 class="selector-heading" id="dataTypes">Data-types</h1>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">date</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet data-type conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name date does not match the pattern. The name should respect the syntax prefix:localSegment
-               (similar to the XML QName).</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name of element date is missing a prefix. The name should comprise a prefix respecing
-               the syntax prefix:localSegment.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name prefix  , is invalid. Please provide a short prefix name containing only
-               alphanumeric characters [a-zA-Z0-9]+.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>date is missing a description. All concepts should be defined or described.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The name date is not unique. The Concept names should be unique within the model.
-               The following specifies the names of the which things are not to be reused as the
-               names of which other things: elements (Class, Datatype, Enumeration, Object) -&gt; elements,
-               attributes, connector roles (dependency and association)</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The datatypedateis not an XSD or RDF datatype.  It is recommended to use XSD and RDF
-               datatypes mainly.</dd>
-         </dl>
          <h1 class="selector-heading" id="packages">Packages</h1>
          <h1 class="selector-heading" id="object">Object</h1>
          <h1 class="selector-heading" id="generalizations">Generalizations</h1>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">Bicycle -&gt; Cycle (+)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet generalisation conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The class Cycle has only one sub-class Bicycle. Class inheritance should be built
-               employing at least two subclasses for each class or not at all.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">BoringWheel -&gt; Wheel (+)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet generalisation conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The class Wheel has only one sub-class BoringWheel. Class inheritance should be built
-               employing at least two subclasses for each class or not at all.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">FancyWheel -&gt; Wheel (+)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet generalisation conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The class Wheel has only one sub-class FancyWheel. Class inheritance should be built
-               employing at least two subclasses for each class or not at all.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">Monocycle -&gt; Cycle (+)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet generalisation conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The class Cycle has only one sub-class Monocycle. Class inheritance should be built
-               employing at least two subclasses for each class or not at all.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">(Boat - Insurance) -&gt; (Insurance - Vehicle) (+)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet generalisation conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter infos"><i class="fa fa-info-circle info"></i>The class ProxyConnector has only one sub-class ProxyConnector. Class inheritance
-               should be built employing at least two subclasses for each class or not at all.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The unidirectional connectors Insurance -&gt; Vehicle and Boat -&gt; Insurance associated
-               with the generalisation connector have opposite directions</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The generalisation between Insurance -&gt; Vehicle and Boat -&gt; Insurance is missing or
-               has invalid direction</dd>
-         </dl>
          <h1 class="selector-heading" id="associations">Associations</h1>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">Boat X Insurance (+hasInsSub +forSub)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector Boat X Insurance (+hasInsSub +forSub) employ invalid direction Unspecified.
-               Connectors must employ Source-&gt;Destination or Bi-directional directions only.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">ClassForQualAssoc X SomeOtherClass (+target +source)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector ClassForQualAssoc X SomeOtherClass (+target +source) employ invalid
-               direction Unspecified. Connectors must employ Source-&gt;Destination or Bi-directional
-               directions only.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">ClassForSpecAssoc X SomeOtherClass (+ +)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector ClassForSpecAssoc X SomeOtherClass (+ +) has no target role. The connectors
-               must have target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector ClassForSpecAssoc X SomeOtherClass (+ +) employ invalid direction Unspecified.
-               Connectors must employ Source-&gt;Destination or Bi-directional directions only.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The target role of ClassForSpecAssoc X SomeOtherClass (+ +) has no multiplicity. Cardinality
-               must be provided for each role.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">Insurance X Vehicle (+for +hasIns)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector Insurance X Vehicle (+for +hasIns) employ invalid direction Unspecified.
-               Connectors must employ Source-&gt;Destination or Bi-directional directions only.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">(SomeOtherClass - Insurance) X (SomeOtherClass - Insurance) (+ +)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector (SomeOtherClass - Insurance) X (SomeOtherClass - Insurance) (+ +) has
-               no target role. The connectors must have target roles.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector (SomeOtherClass - Insurance) X (SomeOtherClass - Insurance) (+ +) employ
-               invalid direction Unspecified. Connectors must employ Source-&gt;Destination or Bi-directional
-               directions only.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The target role of (SomeOtherClass - Insurance) X (SomeOtherClass - Insurance) (+
-               +) has no multiplicity. Cardinality must be provided for each role.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>Associations can be provided only between classes to classes and classes to objects.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">RentalCompany X Vehicle (+lends +ownedby)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector RentalCompany X Vehicle (+lends +ownedby) employ invalid direction Unspecified.
-               Connectors must employ Source-&gt;Destination or Bi-directional directions only.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">SomeOtherClass X Insurance (+hasIns +for)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector SomeOtherClass X Insurance (+hasIns +for) employ invalid direction Unspecified.
-               Connectors must employ Source-&gt;Destination or Bi-directional directions only.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">TernaryTest X Insurance (+toIns +)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector TernaryTest X Insurance (+toIns +) employ invalid direction Unspecified.
-               Connectors must employ Source-&gt;Destination or Bi-directional directions only.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>Associations can be provided only between classes to classes and classes to objects.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">TernaryTest X SomeOtherClass (+toOtherC +)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector TernaryTest X SomeOtherClass (+toOtherC +) employ invalid direction
-               Unspecified. Connectors must employ Source-&gt;Destination or Bi-directional directions
-               only.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>Associations can be provided only between classes to classes and classes to objects.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">TernaryTest X YetAnotherC (+toAC +)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector TernaryTest X YetAnotherC (+toAC +) employ invalid direction Unspecified.
-               Connectors must employ Source-&gt;Destination or Bi-directional directions only.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>Associations can be provided only between classes to classes and classes to objects.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">Association A</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (Association A), and it should not. The names must
-               be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector Association A employ invalid direction Unspecified. Connectors must
-               employ Source-&gt;Destination or Bi-directional directions only.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">Association B</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector has a general name (Association B), and it should not. The names must
-               be provided as connector source and target roles, not as connector name.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector Association B employ invalid direction Unspecified. Connectors must
-               employ Source-&gt;Destination or Bi-directional directions only.</dd>
-         </dl>
          <h1 class="selector-heading" id="dependencies">Dependencies</h1>
          <h1 class="selector-heading" id="realisations">Realisations</h1>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="connectorsUsage">Connectors with multiple usages</h1>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-for">
-            <dt>for</dt>
-         </dl>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts the multiplicity is expected to be
-            the same.</dd>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="connector-whole">
-            <dt>whole</dt>
-         </dl>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>When a property is reused in multiple contexts the multiplicity is expected to be
-            the same.</dd>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="classAttributesUsage">Class attributes with multiple usages</h1>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#" id="attribute-name-usage">
-            <dt>name</dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The attribute name has different datatypes in reuse contexts.When a property is reused
-               in multiple contexts, the data-type is expected to be the same.In this case, multiple
-               data-types are found: 
-               <ul>
-                  <li>short (AssocClass1) </li>
-                  <li>long (RentalCompany) </li>
-                  <li>short (Vehicle) </li>
-               </ul>
-            </dd>
-         </dl>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="generalConventions">General conventions</h1>
          <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Only associations, dependecies, generalisations and realisation connectors are supported.
             The following connector types were found in model and are not supported
             <ul>
                <li>Aggregation</li>
-            </ul>
-         </dd>
-         <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Only Class, Package, Datatype, Enumeration, and Object elements are supported. The
-            following element types were found in model and are not supported
-            <ul>
-               <li>uml:Association</li>
-               <li>uml:ProxyConnector</li>
             </ul>
          </dd>
       </main>

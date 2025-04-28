@@ -41,87 +41,71 @@
                </thead>
                <tbody>
                   <tr>
-                     <td>AssocClass1</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>Bicycle</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>Boat</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>BoringWheel</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>Car</td>
-                     <td></td>
-                  </tr>
-                  <tr>
                      <td>Class A</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>Class B</td>
+                     <td>Class A.1</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>Class C</td>
+                     <td>Class A.1.1</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>ClassForQualAssoc</td>
+                     <td>Class A.1.2</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>ClassForSpecAssoc</td>
+                     <td>Class A.1.3</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>Contractor</td>
+                     <td>Class A.2</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>Cycle</td>
+                     <td>Class A.2.1</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>FancyWheel</td>
+                     <td>Class A.2.2</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>Insurance</td>
+                     <td>Class A.2.3</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>Monocycle</td>
+                     <td>Class A.3</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>PartsClass</td>
+                     <td>Class A.3.1</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>RentalCompany</td>
+                     <td>Class A.3.2</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>SomeOtherClass</td>
+                     <td>Class A.3.3</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>Vehicle</td>
+                     <td>Class A.4</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>Wheel</td>
+                     <td>Class A.4.1</td>
                      <td></td>
                   </tr>
                   <tr>
-                     <td>YetAnotherC</td>
+                     <td>Class A.4.2</td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td>Class A.4.3</td>
                      <td></td>
                   </tr>
                </tbody>
@@ -136,56 +120,7 @@
                      <th>Data type / cardinality</th>
                   </tr>
                </thead>
-               <tbody>
-                  <tr>
-                     <td>Class A<br>Class B<br>Class C<br></td>
-                     <td>Attribute A</td>
-                     <td>  </td>
-                     <td>int [1..1]<br>int [1..1]<br>int [1..1]<br></td>
-                  </tr>
-                  <tr>
-                     <td>Class A<br>Class B<br>Class C<br></td>
-                     <td>Attribute B</td>
-                     <td>  </td>
-                     <td>int [1..1]<br>int [1..1]<br>int [1..1]<br></td>
-                  </tr>
-                  <tr>
-                     <td>Cycle</td>
-                     <td>colour</td>
-                     <td></td>
-                     <td>short [1..3]</td>
-                  </tr>
-                  <tr>
-                     <td>AssocClass1</td>
-                     <td>date</td>
-                     <td></td>
-                     <td>date [1..1]</td>
-                  </tr>
-                  <tr>
-                     <td>Vehicle</td>
-                     <td>engravedID</td>
-                     <td></td>
-                     <td>int [1..1]</td>
-                  </tr>
-                  <tr>
-                     <td>Wheel</td>
-                     <td>ID</td>
-                     <td></td>
-                     <td>int [1..1]</td>
-                  </tr>
-                  <tr>
-                     <td>AssocClass1<br>RentalCompany<br>Vehicle<br></td>
-                     <td>name</td>
-                     <td>  </td>
-                     <td>short [1..1]<br>long [1..1]<br>short [1..1]<br></td>
-                  </tr>
-                  <tr>
-                     <td>Vehicle</td>
-                     <td>nickName</td>
-                     <td></td>
-                     <td>long [1..1]</td>
-                  </tr>
-               </tbody>
+               <tbody></tbody>
             </table>
             <h2 xmlns:f="http://https://github.com/costezki/model2owl#">Predicates (object properties) and definitions</h2>
             <table xmlns:f="http://https://github.com/costezki/model2owl#" class="display">
@@ -196,106 +131,7 @@
                      <th>Domain, Range and Cardinality</th>
                   </tr>
                </thead>
-               <tbody>
-                  <tr>
-                     <td>Association A</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>Association B</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>for</td>
-                     <td> </td>
-                     <td>Insurance -&gt; Vehicle [1..*]<br>SomeOtherClass [,0..*] &lt;- Insurance<br></td>
-                  </tr>
-                  <tr>
-                     <td>forSub</td>
-                     <td></td>
-                     <td>Boat [,0..*] &lt;- Insurance</td>
-                  </tr>
-                  <tr>
-                     <td>hasIns</td>
-                     <td> </td>
-                     <td>Insurance [,0..*] &lt;- Vehicle<br>SomeOtherClass -&gt; Insurance [0..*]<br></td>
-                  </tr>
-                  <tr>
-                     <td>hasInsSub</td>
-                     <td></td>
-                     <td>Boat -&gt; Insurance [2]</td>
-                  </tr>
-                  <tr>
-                     <td>lends</td>
-                     <td></td>
-                     <td>RentalCompany -&gt; Vehicle [1..*]</td>
-                  </tr>
-                  <tr>
-                     <td>ownedby</td>
-                     <td></td>
-                     <td>RentalCompany [,1] &lt;- Vehicle</td>
-                  </tr>
-                  <tr>
-                     <td>part</td>
-                     <td></td>
-                     <td>Contractor [,] &lt;- RentalCompany</td>
-                  </tr>
-                  <tr>
-                     <td>ppart</td>
-                     <td></td>
-                     <td>Wheel [,1..*] &lt;- Cycle</td>
-                  </tr>
-                  <tr>
-                     <td>role a</td>
-                     <td></td>
-                     <td>Class A [,0..*] &lt;- Class B</td>
-                  </tr>
-                  <tr>
-                     <td>role b</td>
-                     <td></td>
-                     <td>Class A -&gt; Class B [0..*]</td>
-                  </tr>
-                  <tr>
-                     <td>role c</td>
-                     <td></td>
-                     <td>Class A [,0..1] &lt;- Class C</td>
-                  </tr>
-                  <tr>
-                     <td>role d</td>
-                     <td></td>
-                     <td>Class A -&gt; Class C [0..*]</td>
-                  </tr>
-                  <tr>
-                     <td>source</td>
-                     <td></td>
-                     <td>ClassForQualAssoc [,1] &lt;- SomeOtherClass</td>
-                  </tr>
-                  <tr>
-                     <td>target</td>
-                     <td></td>
-                     <td>ClassForQualAssoc -&gt; SomeOtherClass [0..*]</td>
-                  </tr>
-                  <tr>
-                     <td>toAC</td>
-                     <td></td>
-                     <td>TernaryTest -&gt; YetAnotherC [0..1]</td>
-                  </tr>
-                  <tr>
-                     <td>toIns</td>
-                     <td></td>
-                     <td>TernaryTest -&gt; Insurance [0..*]</td>
-                  </tr>
-                  <tr>
-                     <td>toOtherC</td>
-                     <td></td>
-                     <td>TernaryTest -&gt; SomeOtherClass [1..*]</td>
-                  </tr>
-                  <tr>
-                     <td>whole</td>
-                     <td> </td>
-                     <td>Contractor -&gt; RentalCompany []<br>Wheel -&gt; Cycle []<br></td>
-                  </tr>
-               </tbody>
+               <tbody></tbody>
             </table>
          </div>
       </main>
