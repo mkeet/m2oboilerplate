@@ -162,9 +162,7 @@
         'testing aa bb.gg'"/>
 
     <!--    rdfs:seeAlso -->
-    <xsl:variable name="seeAlsoResources"
-        select="
-            ('https://github....', ...)"/>
+
     <!--    dct:issued-->
     <xsl:variable name="issuedDate" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
     <!--    dct:created-->
