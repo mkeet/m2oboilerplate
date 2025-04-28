@@ -106,11 +106,11 @@
     <!-- This variable control if Object and Realisation are generated -->
     <xsl:variable name="generateObjectsAndRealisations" select="fn:false()"/>
 <!--    Set of variables for convention rtestrt-->
-    <xsl:variable name="conventionRtestrtCopyrightText" select="'xxx'"/>
-    <xsl:variable name="conventionRtestrtAuthor" select="'yyy'"/>
-    <xsl:variable name="conventionRtestrtAuthorLocation" select="'zzz'"/>
-    <xsl:variable name="conventionRtestrtAuthorWebsite" select="'https://www.example.org'"/>
-    <xsl:variable name="conventionRtestrtUMLModelName" select="'testing'"/>
+    <xsl:variable name="conventionReportCopyrightText" select="'xxx'"/>
+    <xsl:variable name="conventionReportAuthor" select="'yyy'"/>
+    <xsl:variable name="conventionReportAuthorLocation" select="'zzz'"/>
+    <xsl:variable name="conventionReportAuthorWebsite" select="'https://www.example.org'"/>
+    <xsl:variable name="conventionReportUMLModelName" select="'BasicModel'"/>
     <!-- URIs list of UML versions supported by model2owl -->
     <xsl:variable name="supportedUmlVersions"
         select="('http://www.omg.org/spec/UML/20131001',
