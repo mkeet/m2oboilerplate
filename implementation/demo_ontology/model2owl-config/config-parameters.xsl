@@ -135,34 +135,54 @@
     <xsl:variable name="ontologyTitleRestrictions" select="'test Core restrictions'"/>
     <xsl:variable name="ontologyTitleShapes" select="'test Core shapes'"/>
     <!--    dct:description-->
-    <xsl:variable name="ontologyDescriptionCore"
+  <xsl:variable name="ontologyDescriptionCore"
         select="
-        'testing aa bb.'"/>
+        'This artefact provides the definitions for the eProcurement Ontology Core.
+        This artefact excludes the restrictions.
+        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
         <xsl:variable name="ontologyDescriptionRestrictions"
         select="
-        'testing aa bb. cc'"/>
+        'This artefact provides the restrictions and inference-related specifications for the eProcurement Ontology Core.
+        This artefact excludes the definitions of concepts.
+        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
     <xsl:variable name="ontologyDescriptionShapes"
         select="
-        'testing aa bb. cc. dd'"/>
+        'This artefact provides the generic datashape specifications for the eProcurement Ontology Core.
+        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
 
     <!--    rdfs:label-->
     <xsl:variable name="ontologyLabelCore"
         select="
-        'testing aa bb. ee'"/>
+        'This artefact provides the definitions for the eProcurement Ontology Core.
+        This artefact excludes the restrictions.
+        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
     <xsl:variable name="ontologyLabelRestrictions"
         select="
-        'testing aa bb.ff'"/>
+        'This artefact provides the restrictions and inference-related specifications for the eProcurement Ontology Core.
+        This artefact excludes the definitions of concepts.
+        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
     <xsl:variable name="ontologyLabelShapes"
         select="
-        'testing aa bb.gg'"/>
+        'This artefact provides the generic datashape specifications for the eProcurement Ontology Core.
+        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
     <!--    rdfs:seeAlso -->
-
+    <xsl:variable name="seeAlsoResources"
+        select="
+            ('https://github.com/eprocurementontology/eprocurementontology',
+            'https://joinup.ec.europa.eu/collection/eprocurement/solution/eprocurement-ontology/about', 'https://op.europa.eu/en/web/eu-vocabularies/e-procurement',
+            'https://docs.ted.europa.eu/EPO/latest/index.html')"/>
     <!--    dct:issued-->
     <xsl:variable name="issuedDate" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
     <!--    dct:created-->
