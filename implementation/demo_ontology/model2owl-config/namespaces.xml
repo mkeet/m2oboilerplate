@@ -10,7 +10,6 @@
 
     <prefix name="foaf" value="http://xmlns.com/foaf/0.1/"/>
     <prefix name="dct" value="http://purl.org/dc/terms/"/> 
-    <prefix name="org" value="http://www.w3.org/ns/org#"/>
     <prefix name="skos" value="http://www.w3.org/2004/02/skos/core#"/> 
     <prefix name="eli" value="http://data.europa.eu/eli/ontology#"/>
 
