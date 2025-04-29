@@ -131,71 +131,75 @@
     <!--    This section contains the variables used to build the ontology metadata-->
     <xsl:variable name="moduleReference" select="'core'"/>
     <!--    dct:title -->
-    <xsl:variable name="ontologyTitleCore" select="'test Core core'"/>
-    <xsl:variable name="ontologyTitleRestrictions" select="'test Core restrictions'"/>
-    <xsl:variable name="ontologyTitleShapes" select="'test Core shapes'"/>
+    <xsl:variable name="ontologyTitleCore" select="' Core core'"/>
+    <xsl:variable name="ontologyTitleRestrictions" select="'Core restrictions'"/>
+    <xsl:variable name="ontologyTitleShapes" select="'Core shapes'"/>
     <!--    dct:description-->
-  <xsl:variable name="ontologyDescriptionCore"
+    <xsl:variable name="ontologyDescriptionCore"
         select="
-        'This artefact provides the definitions for the eProcurement Ontology Core.
+        'This artefact provides the definitions for the  Core.
         This artefact excludes the restrictions.
-        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
         <xsl:variable name="ontologyDescriptionRestrictions"
         select="
-        'This artefact provides the restrictions and inference-related specifications for the eProcurement Ontology Core.
+        'This artefact provides the restrictions and inference-related specifications for the  Core.
         This artefact excludes the definitions of concepts.
-        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The  describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
     <xsl:variable name="ontologyDescriptionShapes"
         select="
-        'This artefact provides the generic datashape specifications for the eProcurement Ontology Core.
-        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        'This artefact provides the generic datashape specifications for the  Core.
+        The  describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
 
     <!--    rdfs:label-->
     <xsl:variable name="ontologyLabelCore"
         select="
-        'This artefact provides the definitions for the eProcurement Ontology Core.
+        'This artefact provides the definitions for the  Core.
         This artefact excludes the restrictions.
         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
     <xsl:variable name="ontologyLabelRestrictions"
         select="
-        'This artefact provides the restrictions and inference-related specifications for the eProcurement Ontology Core.
+        'This artefact provides the restrictions and inference-related specifications for the  Core.
         This artefact excludes the definitions of concepts.
-        The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
+        The describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
     <xsl:variable name="ontologyLabelShapes"
         select="
-        'This artefact provides the generic datashape specifications for the eProcurement Ontology Core.
+        'This artefact provides the generic datashape specifications for the Core.
         The eProcurement Ontology describes objects and concepts, with definitions, attributes and relationships which are present within the European public procurement domain.
         The provision of these concepts provides the basis for a common understanding of the domain for all stakeholders ensuring the quality of data exchange and transparency.'"/>
 
     <!--    rdfs:seeAlso -->
     <xsl:variable name="seeAlsoResources"
         select="
-            ('https://github.com/eprocurementontology/eprocurementontology',
-            'https://joinup.ec.europa.eu/collection/eprocurement/solution/eprocurement-ontology/about', 'https://op.europa.eu/en/web/eu-vocabularies/e-procurement',
-            'https://docs.ted.europa.eu/EPO/latest/index.html')"/>
+            ('http://www.example.org/')"/>
     <!--    dct:issued-->
     <xsl:variable name="issuedDate" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
     <!--    dct:created-->
     <xsl:variable name="createdDate" select="format-date(current-date(), '[Y0001]-[M01]-[D01]')"/>
-        <!--    bibo:status-->
-    <xsl:variable name="ontologyStatus" select="'...'"/>
-       <!--    vann:preferredNamespaceUri -->
+    <!--    owl:incompatibleWith -->
+    <xsl:variable name="incompatibleWith" select="'0.0'"/>
+    <!--    owl:versionInfo -->
+    <xsl:variable name="versionInfo" select="'1'"/>
+    <!--    bibo:status-->
+    <xsl:variable name="ontologyStatus" select="'Semantic Specification Realease xxx'"/>
+    <!--    owl:priorVersion -->
+    <xsl:variable name="priorVersion" select="'0'"/>
+    <!--    vann:preferredNamespaceUri -->
     <xsl:variable name="preferredNamespaceUri" select="'http://www.example.org/testmodels'"/>
     <!--    vann:preferredNamespacePrefix -->
     <xsl:variable name="preferredNamespacePrefix" select="'test'"/>
 
 <!--    dct:license-->
-    <xsl:variable name="licenseLiteral" select="'nah, for testing.'"/>
+    <xsl:variable name="licenseLiteral" select="'The .... indicated.'"/>
 
     <!--    dct:publisher-->
     <xsl:variable name="publisher" select="'http://www.example.org/'"/>
