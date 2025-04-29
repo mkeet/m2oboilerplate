@@ -3248,7 +3248,7 @@
                          External concept defined by &lt;xref scope="external" href="https://semiceu.github.io/ADMS/releases/2.00/#identifier"&gt;&lt;foreign
                         otherprops="#0000ff"&gt;&lt;u&gt;https://semiceu.github.io/ADMS/releases/2.00/#identifier&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;
                         </td>
-                     <td>epo:Project -&gt; adms:Identifier [0..1]<br>epo:LotGroup -&gt; adms:Identifier [0..1]<br>epo:ProcurementElement -&gt; adms:Identifier [1]<br>epo:TenderGroup -&gt; adms:Identifier [0..1]<br>foaf:Agent -&gt; adms:Identifier [0..*]<br>dct:Location -&gt; adms:Identifier [0..1]<br>cccev:Evidence -&gt; adms:Identifier [1]<br>cccev:InformationConcept -&gt; adms:Identifier [0..1]<br>cccev:Requirement -&gt; adms:Identifier [0..1]<br>epo:Document -&gt; adms:Identifier [0..*]<br>epo:Fund -&gt; adms:Identifier [0..1]<br>cccev:EvidenceType (external) -&gt; adms:Identifier [0..1]<br>epo-ful:Consignment (external) -&gt; adms:Identifier [0..1]<br>epo-ful:TransportEquipment (external) -&gt; adms:Identifier [0..1]<br>epo-ful:ShipmentStage (external) -&gt; adms:Identifier [0..1]<br>epo-ful:TransportEquipmentSeal (external) -&gt; adms:Identifier [0..1]<br>cccev:EvidenceTypeList (external) -&gt; adms:Identifier [0..1]<br>epo-ful:ShipmentInformation (external) -&gt; adms:Identifier [0..1]<br>epo-cat:Line (external) -&gt; adms:Identifier [0..1]<br>epo-ful:AbstractContainer (external) -&gt; adms:Identifier [0..1]<br></td>
+                     <td>epo:Project -&gt; adms:Identifier [0..1]<br>epo:LotGroup -&gt; adms:Identifier [0..1]<br>epo:ProcurementElement -&gt; adms:Identifier [1]<br>epo:TenderGroup -&gt; adms:Identifier [0..1]<br>foaf:Agent -&gt; adms:Identifier [0..*]<br>dct:Location -&gt; adms:Identifier [0..1]<br>cccev:Evidence -&gt; adms:Identifier [1]<br>cccev:InformationConcept -&gt; adms:Identifier [0..1]<br>cccev:Requirement -&gt; adms:Identifier [0..1]<br>epo:Document -&gt; adms:Identifier [0..*]<br>epo:Fund -&gt; adms:Identifier [0..1]<br>cccev:EvidenceType (external) -&gt; adms:Identifier [0..1]<br>epo-ful:Consignment -&gt; adms:Identifier [0..1]<br>epo-ful:TransportEquipment -&gt; adms:Identifier [0..1]<br>epo-ful:ShipmentStage -&gt; adms:Identifier [0..1]<br>epo-ful:TransportEquipmentSeal -&gt; adms:Identifier [0..1]<br>cccev:EvidenceTypeList (external) -&gt; adms:Identifier [0..1]<br>epo-ful:ShipmentInformation -&gt; adms:Identifier [0..1]<br>epo-cat:Line -&gt; adms:Identifier [0..1]<br>epo-ful:AbstractContainer -&gt; adms:Identifier [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>cccev:confidentialityLevelType</td>
@@ -3285,7 +3285,7 @@
                         otherprops="#0000ff"&gt;&lt;u&gt;http://data.europa.eu/m8g/hasRequirement&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt; External concept defined by &lt;xref scope="external" href="http://data.europa.eu/m8g/hasRequirement"&gt;&lt;foreign
                         otherprops="#0000ff"&gt;&lt;u&gt;http://data.europa.eu/m8g/hasRequirement&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt; External concept defined by &lt;xref scope="external" href="http://data.europa.eu/m8g/hasRequirement"&gt;&lt;foreign
                         otherprops="#0000ff"&gt;&lt;u&gt;http://data.europa.eu/m8g/hasRequirement&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;</td>
-                     <td>epo:TenderClarificationRequest (external) -&gt; cccev:InformationRequirement [1..*]<br>epo:TenderingQuestion (external) -&gt; cccev:InformationRequirement [1..*]<br>cccev:Requirement -&gt; cccev:Requirement [0..*]<br></td>
+                     <td>epo:TenderClarificationRequest -&gt; cccev:InformationRequirement [1..*]<br>epo:TenderingQuestion -&gt; cccev:InformationRequirement [1..*]<br>cccev:Requirement -&gt; cccev:Requirement [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>cccev:isDerivedFrom</td>
@@ -3378,72 +3378,72 @@
                   <tr>
                      <td>epo:amendsContract</td>
                      <td></td>
-                     <td>epo-con:ContractAmendment (external) -&gt; epo:Contract [1]</td>
+                     <td>epo-con:ContractAmendment -&gt; epo:Contract [1]</td>
                   </tr>
                   <tr>
                      <td>epo:announcesAwardDecision</td>
                      <td> </td>
-                     <td>epo-not:ResultNotice (external) -&gt; epo:AwardDecision [0..*]<br>epo-not:DirectAwardPrenotificationNotice (external) -&gt; epo:AwardDecision [0..*]<br></td>
+                     <td>epo-not:ResultNotice -&gt; epo:AwardDecision [0..*]<br>epo-not:DirectAwardPrenotificationNotice -&gt; epo:AwardDecision [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo:announcesCompletionOfContract</td>
                      <td></td>
-                     <td>epo-not:CompletionNotice (external) -&gt; epo:Contract [1]</td>
+                     <td>epo-not:CompletionNotice -&gt; epo:Contract [1]</td>
                   </tr>
                   <tr>
                      <td>epo:announcesContract</td>
                      <td> </td>
-                     <td>epo-not:DirectAwardPrenotificationNotice (external) -&gt; epo:Contract [0..*]<br>epo-not:ResultNotice (external) -&gt; epo:Contract [0..*]<br></td>
+                     <td>epo-not:DirectAwardPrenotificationNotice -&gt; epo:Contract [0..*]<br>epo-not:ResultNotice -&gt; epo:Contract [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo:announcesLot</td>
                      <td> </td>
-                     <td>epo-not:DirectAwardPrenotificationNotice (external) -&gt; epo:Lot [1..*]<br>epo-not:CompetitionNotice (external) -&gt; epo:Lot [1..*]<br></td>
+                     <td>epo-not:DirectAwardPrenotificationNotice -&gt; epo:Lot [1..*]<br>epo-not:CompetitionNotice -&gt; epo:Lot [1..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo:announcesLotGroup</td>
                      <td> </td>
-                     <td>epo-not:CompetitionNotice (external) -&gt; epo:LotGroup [0..*]<br>epo-not:DirectAwardPrenotificationNotice (external) -&gt; epo:LotGroup [0..*]<br></td>
+                     <td>epo-not:CompetitionNotice -&gt; epo:LotGroup [0..*]<br>epo-not:DirectAwardPrenotificationNotice -&gt; epo:LotGroup [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo:announcesLotGroupAwardInformation</td>
                      <td> </td>
-                     <td>epo-not:DirectAwardPrenotificationNotice (external) -&gt; epo:LotGroupAwardInformation [0..*]<br>epo-not:ResultNotice (external) -&gt; epo:LotGroupAwardInformation [0..*]<br></td>
+                     <td>epo-not:DirectAwardPrenotificationNotice -&gt; epo:LotGroupAwardInformation [0..*]<br>epo-not:ResultNotice -&gt; epo:LotGroupAwardInformation [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo:announcesNoticeAwardInformation</td>
                      <td> </td>
-                     <td>epo-not:DirectAwardPrenotificationNotice (external) -&gt; epo:NoticeAwardInformation [0..1]<br>epo-not:ResultNotice (external) -&gt; epo:NoticeAwardInformation [0..1]<br></td>
+                     <td>epo-not:DirectAwardPrenotificationNotice -&gt; epo:NoticeAwardInformation [0..1]<br>epo-not:ResultNotice -&gt; epo:NoticeAwardInformation [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:announcesPlannedProcurementPart</td>
                      <td></td>
-                     <td>epo-not:PlanningNotice (external) -&gt; epo:PlannedProcurementPart [0..*]</td>
+                     <td>epo-not:PlanningNotice -&gt; epo:PlannedProcurementPart [0..*]</td>
                   </tr>
                   <tr>
                      <td>epo:announcesProcedure</td>
                      <td> </td>
-                     <td>epo-not:DirectAwardPrenotificationNotice (external) -&gt; epo:Procedure [1]<br>epo-not:CompetitionNotice (external) -&gt; epo:Procedure [1]<br></td>
+                     <td>epo-not:DirectAwardPrenotificationNotice -&gt; epo:Procedure [1]<br>epo-not:CompetitionNotice -&gt; epo:Procedure [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:announcesReviewObject</td>
                      <td></td>
-                     <td>epo-not:CompletionNotice (external) -&gt; epo:ReviewObject [1..*]</td>
+                     <td>epo-not:CompletionNotice -&gt; epo:ReviewObject [1..*]</td>
                   </tr>
                   <tr>
                      <td>epo:announcesRole</td>
                      <td>    </td>
-                     <td>epo-not:DirectAwardPrenotificationNotice (external) -&gt; epo:AgentInRole [1..*]<br>epo-not:ContractModificationNotice (external) -&gt; epo:AgentInRole [0..*]<br>epo-not:PlanningNotice (external) -&gt; epo:AgentInRole [1..*]<br>epo-not:CompetitionNotice (external) -&gt; epo:AgentInRole [1..*]<br>epo-not:CompletionNotice (external) -&gt; epo:AgentInRole [0..*]<br></td>
+                     <td>epo-not:DirectAwardPrenotificationNotice -&gt; epo:AgentInRole [1..*]<br>epo-not:ContractModificationNotice -&gt; epo:AgentInRole [0..*]<br>epo-not:PlanningNotice -&gt; epo:AgentInRole [1..*]<br>epo-not:CompetitionNotice -&gt; epo:AgentInRole [1..*]<br>epo-not:CompletionNotice -&gt; epo:AgentInRole [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo:answersAwardCriteria</td>
                      <td> </td>
-                     <td>epo:FinancialOffer (external) -&gt; epo:AwardCriterion [1]<br>epo:TechnicalOffer (external) -&gt; epo:AwardCriterion [1]<br></td>
+                     <td>epo:FinancialOffer -&gt; epo:AwardCriterion [1]<br>epo:TechnicalOffer -&gt; epo:AwardCriterion [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:answersToInformationRequirement</td>
                      <td></td>
-                     <td>epo:TenderingAnswer (external) -&gt; cccev:InformationRequirement [1..*]</td>
+                     <td>epo:TenderingAnswer -&gt; cccev:InformationRequirement [1..*]</td>
                   </tr>
                   <tr>
                      <td>epo:associatedWith</td>
@@ -3514,7 +3514,7 @@
                      <td>epo:concernsProcedure</td>
                      <td> Relates to Procedure.  Relates to Procedure.
                           </td>
-                     <td>epo:ProcurementDocumentsProvision (external) -&gt; epo:Procedure [1]<br>epo:ProcurementProcessInformation -&gt; epo:Procedure [0..1]<br>epo:ExpressionOfInterest -&gt; epo:Procedure [1]<br>epo-acc:ESPDRequest (external) -&gt; epo:Procedure [1]<br>epo:ProcurementDocumentsRequest (external) -&gt; epo:Procedure [1]<br>epo:UnsubscribeFromProcedureRequest (external) -&gt; epo:Procedure [1]<br></td>
+                     <td>epo:ProcurementDocumentsProvision -&gt; epo:Procedure [1]<br>epo:ProcurementProcessInformation -&gt; epo:Procedure [0..1]<br>epo:ExpressionOfInterest -&gt; epo:Procedure [1]<br>epo-acc:ESPDRequest (external) -&gt; epo:Procedure [1]<br>epo:ProcurementDocumentsRequest -&gt; epo:Procedure [1]<br>epo:UnsubscribeFromProcedureRequest -&gt; epo:Procedure [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:concernsReviewSummaryForLot</td>
@@ -3671,7 +3671,7 @@
                   <tr>
                      <td>epo:describesDirectAwardPrenotificationNotice</td>
                      <td></td>
-                     <td>epo:NoticeAwardInformation -&gt; epo-not:DirectAwardPrenotificationNotice (external) [0..1]</td>
+                     <td>epo:NoticeAwardInformation -&gt; epo-not:DirectAwardPrenotificationNotice [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo:describesLotCompletion</td>
@@ -3686,7 +3686,7 @@
                   <tr>
                      <td>epo:describesResultNotice</td>
                      <td></td>
-                     <td>epo:NoticeAwardInformation -&gt; epo-not:ResultNotice (external) [0..1]</td>
+                     <td>epo:NoticeAwardInformation -&gt; epo-not:ResultNotice [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo:distributesOffer</td>
@@ -3706,12 +3706,12 @@
                   <tr>
                      <td>epo:exposesReceiverChannel</td>
                      <td> </td>
-                     <td>epo:SearchNoticeQuery (external) -&gt; cv:Channel [1]<br>epo:SearchNoticeQueryResponse (external) -&gt; cv:Channel [1]<br></td>
+                     <td>epo:SearchNoticeQuery -&gt; cv:Channel [1]<br>epo:SearchNoticeQueryResponse -&gt; cv:Channel [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:exposesSenderChannel</td>
                      <td> </td>
-                     <td>epo:SearchNoticeQuery (external) -&gt; cv:Channel [1]<br>epo:SearchNoticeQueryResponse (external) -&gt; cv:Channel [1]<br></td>
+                     <td>epo:SearchNoticeQuery -&gt; cv:Channel [1]<br>epo:SearchNoticeQueryResponse -&gt; cv:Channel [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:followsRulesSetBy</td>
@@ -3849,7 +3849,7 @@
                      <td>epo:hasBatchID</td>
                      <td>The identifier assigned to a specific batch of the produced Item.
                         </td>
-                     <td>epo-cat:Batch (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-cat:Batch -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo:hasBeneficialOwner</td>
@@ -3888,7 +3888,7 @@
                      <td>epo:hasBuyerItemID</td>
                      <td>The general identifier assigned to the concept as defined by the Buyer.​
                         </td>
-                     <td>epo-cat:Item (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-cat:Item -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo:hasBuyerLegalType</td>
@@ -3903,7 +3903,7 @@
                   <tr>
                      <td>epo:hasCertification</td>
                      <td>Relation to the proof of conformance. Relation to the proof of conformance. Relation to the proof of conformance.</td>
-                     <td>foaf:Person -&gt; epo:Certificate [0..*]<br>org:Organization -&gt; epo:Certificate [0..*]<br>epo-cat:Item (external) -&gt; epo:Certificate [0..*]<br></td>
+                     <td>foaf:Person -&gt; epo:Certificate [0..*]<br>org:Organization -&gt; epo:Certificate [0..*]<br>epo-cat:Item -&gt; epo:Certificate [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo:hasChangeJustification</td>
@@ -4078,7 +4078,7 @@
                   <tr>
                      <td>epo:hasEvaluationMember</td>
                      <td>An agent involved in an evaluation board.</td>
-                     <td>epo:EvaluationBoard (external) -&gt; epo:JuryMember [1..*]</td>
+                     <td>epo:EvaluationBoard -&gt; epo:JuryMember [1..*]</td>
                   </tr>
                   <tr>
                      <td>epo:hasFinancialOfferValue</td>
@@ -4170,7 +4170,7 @@
                      <td>epo:hasItemStandardID</td>
                      <td>External concept defined by &lt;xref scope="external" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/isReplacedBy"&gt;&lt;foreign
                         otherprops="#0000ff"&gt;&lt;u&gt;https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/isReplacedBy&lt;/u&gt;&lt;/foreign&gt;&lt;/xref&gt;</td>
-                     <td>epo-cat:Item (external) -&gt; adms:Identifier [0..*]</td>
+                     <td>epo-cat:Item -&gt; adms:Identifier [0..*]</td>
                   </tr>
                   <tr>
                      <td>epo:hasLabelType</td>
@@ -4257,13 +4257,13 @@
                      <td>epo:hasManufacturerID</td>
                      <td>The manufacturer's identifier for the item.
                         </td>
-                     <td>epo-cat:Manufacturer (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-cat:Manufacturer -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo:hasManufacturerItemID</td>
                      <td>The general identifier assigned to the concept as defined by the Manufacturer. ​
                         </td>
-                     <td>epo-cat:Item (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-cat:Item -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo:hasMaximumFrameworkAgreementAwardedValue</td>
@@ -4290,7 +4290,7 @@
                         
                         The codelist to be used is at-voc:modification-justification which is available at
                         http://publications.europa.eu/resource/dataset/modification-justification</td>
-                     <td>epo-con:ContractModificationInformation (external) -&gt; at-voc:modification-justification [1]</td>
+                     <td>epo-con:ContractModificationInformation -&gt; at-voc:modification-justification [1]</td>
                   </tr>
                   <tr>
                      <td>epo:hasNationality</td>
@@ -4474,13 +4474,13 @@
                      <td>epo:hasSellerItemID</td>
                      <td>The general identifier assigned to the concept as defined by the Seller.​
                         </td>
-                     <td>epo-cat:Item (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-cat:Item -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo:hasSerialID</td>
                      <td>The identifier assigned to the specific instance of the produced concept.
                         </td>
-                     <td>epo-cat:Item (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-cat:Item -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo:hasStartDate</td>
@@ -4582,7 +4582,7 @@
                   <tr>
                      <td>epo:hasTotalValue</td>
                      <td> </td>
-                     <td>epo:TenderGroup -&gt; epo:MonetaryValue [0..1]<br>epo-con:Deliverable (external) -&gt; epo:MonetaryValue [0..1]<br></td>
+                     <td>epo:TenderGroup -&gt; epo:MonetaryValue [0..1]<br>epo-con:Deliverable -&gt; epo:MonetaryValue [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:hasUnitCode</td>
@@ -4607,13 +4607,13 @@
                      <td>epo:hasUUID</td>
                      <td>A universally unique identifier for an instance of this document. A universally unique identifier for an instance of this document.
                         </td>
-                     <td>epo:Document -&gt; adms:Identifier [0..1]<br>epo-cat:CatalogueResponseLine (external) -&gt; adms:Identifier [1]<br></td>
+                     <td>epo:Document -&gt; adms:Identifier [0..1]<br>epo-cat:CatalogueResponseLine -&gt; adms:Identifier [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:hasValidityPeriod</td>
                      <td>The relation indicating until when a given instance of a concept is applicable. The relation indicating until when a given instance of a concept is applicable.
                           The relation indicating until when a given instance of a concept is applicable.</td>
-                     <td>cccev:Evidence -&gt; epo:Period [0..1]<br>epo:Technique -&gt; epo:Period [0..1]<br>epo-ord:Order (external) -&gt; epo:Period [0..1]<br>epo-cat:Catalogue (external) -&gt; epo:Period [0..1]<br></td>
+                     <td>cccev:Evidence -&gt; epo:Period [0..1]<br>epo:Technique -&gt; epo:Period [0..1]<br>epo-ord:Order -&gt; epo:Period [0..1]<br>epo-cat:Catalogue -&gt; epo:Period [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:hasVariantPermission</td>
@@ -4688,12 +4688,12 @@
                   <tr>
                      <td>epo:isAppointedBy</td>
                      <td></td>
-                     <td>epo:EvaluationBoard (external) -&gt; epo:Buyer [1]</td>
+                     <td>epo:EvaluationBoard -&gt; epo:Buyer [1]</td>
                   </tr>
                   <tr>
                      <td>epo:isAssignedForEvaluationOf</td>
                      <td></td>
-                     <td>epo:EvaluationBoard (external) -&gt; epo:Lot [0..*]</td>
+                     <td>epo:EvaluationBoard -&gt; epo:Lot [0..*]</td>
                   </tr>
                   <tr>
                      <td>epo:isBasedOnImplementingRegulation</td>
@@ -4716,7 +4716,7 @@
                         
                          The monetary amount to which the multiplier factor is applied in calculating the amount
                         of this allowance or charge.</td>
-                     <td>epo-ord:AllowanceChargeInformation (external) -&gt; epo:MonetaryValue [0..1]<br>epo-ord:TaxInformation (external) -&gt; epo:MonetaryValue [0..1]<br></td>
+                     <td>epo-ord:AllowanceChargeInformation -&gt; epo:MonetaryValue [0..1]<br>epo-ord:TaxInformation -&gt; epo:MonetaryValue [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:isExecutedByProcurementServiceProvider</td>
@@ -4805,7 +4805,7 @@
                   <tr>
                      <td>epo:isSupportedBy</td>
                      <td>  </td>
-                     <td>epo:Tender -&gt; epo:TechnicalOffer (external) [1]<br>epo:Tender -&gt; epo-sub:ESPD (external) [1]<br>epo:Tender -&gt; epo:FinancialOffer (external) [1]<br></td>
+                     <td>epo:Tender -&gt; epo:TechnicalOffer [1]<br>epo:Tender -&gt; epo-sub:ESPD (external) [1]<br>epo:Tender -&gt; epo:FinancialOffer [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:leadBy</td>
@@ -4832,7 +4832,7 @@
                   <tr>
                      <td>epo:playedBy</td>
                      <td>  </td>
-                     <td>epo:AgentInRole -&gt; foaf:Agent [1]<br>epo-ful:TransportMeansOperator (external) -&gt; foaf:Person [0..1]<br>epo:JuryMember -&gt; person:Person [0..1]<br></td>
+                     <td>epo:AgentInRole -&gt; foaf:Agent [1]<br>epo-ful:TransportMeansOperator -&gt; foaf:Person [0..1]<br>epo:JuryMember -&gt; person:Person [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:providesContractTotalPaymentValue</td>
@@ -4852,12 +4852,12 @@
                   <tr>
                      <td>epo:queriesForNotice</td>
                      <td></td>
-                     <td>epo:SearchNoticeQuery (external) -&gt; epo:Notice [1..*]</td>
+                     <td>epo:SearchNoticeQuery -&gt; epo:Notice [1..*]</td>
                   </tr>
                   <tr>
                      <td>epo:refersToAwardDecision</td>
                      <td> </td>
-                     <td>epo-not:CompletionNotice (external) -&gt; epo:AwardDecision [0..*]<br>epo-not:ContractModificationNotice (external) -&gt; epo:AwardDecision [0..*]<br></td>
+                     <td>epo-not:CompletionNotice -&gt; epo:AwardDecision [0..*]<br>epo-not:ContractModificationNotice -&gt; epo:AwardDecision [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo:refersToContract</td>
@@ -4867,27 +4867,27 @@
                   <tr>
                      <td>epo:refersToContractToBeModified</td>
                      <td></td>
-                     <td>epo-not:ContractModificationNotice (external) -&gt; epo:Contract [1]</td>
+                     <td>epo-not:ContractModificationNotice -&gt; epo:Contract [1]</td>
                   </tr>
                   <tr>
                      <td>epo:refersToExpressionOfInterest</td>
                      <td></td>
-                     <td>epo:ExpressionOfInterestResponse (external) -&gt; epo:ExpressionOfInterest [1]</td>
+                     <td>epo:ExpressionOfInterestResponse -&gt; epo:ExpressionOfInterest [1]</td>
                   </tr>
                   <tr>
                      <td>epo:refersToLot</td>
                      <td>   </td>
-                     <td>epo:Notice -&gt; epo:Lot [1..*]<br>epo-not:CompletionNotice (external) -&gt; epo:Lot [1..*]<br>epo-not:ContractModificationNotice (external) -&gt; epo:Lot [1..*]<br>epo-not:ResultNotice (external) -&gt; epo:Lot [1..*]<br></td>
+                     <td>epo:Notice -&gt; epo:Lot [1..*]<br>epo-not:CompletionNotice -&gt; epo:Lot [1..*]<br>epo-not:ContractModificationNotice -&gt; epo:Lot [1..*]<br>epo-not:ResultNotice -&gt; epo:Lot [1..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo:refersToLotGroup</td>
                      <td>  </td>
-                     <td>epo-not:ContractModificationNotice (external) -&gt; epo:LotGroup [0..*]<br>epo-not:ResultNotice (external) -&gt; epo:LotGroup [0..*]<br>epo-not:CompletionNotice (external) -&gt; epo:LotGroup [0..*]<br></td>
+                     <td>epo-not:ContractModificationNotice -&gt; epo:LotGroup [0..*]<br>epo-not:ResultNotice -&gt; epo:LotGroup [0..*]<br>epo-not:CompletionNotice -&gt; epo:LotGroup [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo:refersToLotGroupAwardInformation</td>
                      <td> </td>
-                     <td>epo-not:CompletionNotice (external) -&gt; epo:LotGroupAwardInformation [0..*]<br>epo-not:ContractModificationNotice (external) -&gt; epo:LotGroupAwardInformation [0..*]<br></td>
+                     <td>epo-not:CompletionNotice -&gt; epo:LotGroupAwardInformation [0..*]<br>epo-not:ContractModificationNotice -&gt; epo:LotGroupAwardInformation [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo:refersToNotice</td>
@@ -4897,7 +4897,7 @@
                   <tr>
                      <td>epo:refersToNoticeAwardInformation</td>
                      <td> </td>
-                     <td>epo-not:ContractModificationNotice (external) -&gt; epo:NoticeAwardInformation [0..1]<br>epo-not:CompletionNotice (external) -&gt; epo:NoticeAwardInformation [0..1]<br></td>
+                     <td>epo-not:ContractModificationNotice -&gt; epo:NoticeAwardInformation [0..1]<br>epo-not:CompletionNotice -&gt; epo:NoticeAwardInformation [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:refersToPlannedPart</td>
@@ -4940,27 +4940,27 @@
                   <tr>
                      <td>epo:refersToProcedure</td>
                      <td>   </td>
-                     <td>epo-not:ResultNotice (external) -&gt; epo:Procedure [1]<br>epo-not:ContractModificationNotice (external) -&gt; epo:Procedure [1]<br>epo-not:CompletionNotice (external) -&gt; epo:Procedure [1]<br>epo:Notice -&gt; epo:Procedure [1]<br></td>
+                     <td>epo-not:ResultNotice -&gt; epo:Procedure [1]<br>epo-not:ContractModificationNotice -&gt; epo:Procedure [1]<br>epo-not:CompletionNotice -&gt; epo:Procedure [1]<br>epo:Notice -&gt; epo:Procedure [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:refersToProject</td>
                      <td> </td>
-                     <td>epo-ord:Order (external) -&gt; epo:Project [0..1]<br>epo-inv:Invoice (external) -&gt; epo:Project [0..1]<br></td>
+                     <td>epo-ord:Order -&gt; epo:Project [0..1]<br>epo-inv:Invoice (external) -&gt; epo:Project [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:refersToRole</td>
                      <td></td>
-                     <td>epo-not:CompletionNotice (external) -&gt; epo:AgentInRole [0..*]</td>
+                     <td>epo-not:CompletionNotice -&gt; epo:AgentInRole [0..*]</td>
                   </tr>
                   <tr>
                      <td>epo:refersToTender</td>
                      <td> </td>
-                     <td>epo:TenderReceipt (external) -&gt; epo:Tender [1..*]<br>epo:TenderWithdrawalReceipt (external) -&gt; epo:Tender [1..*]<br></td>
+                     <td>epo:TenderReceipt -&gt; epo:Tender [1..*]<br>epo:TenderWithdrawalReceipt -&gt; epo:Tender [1..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo:relatesToEFormSectionIdentifier</td>
                      <td>  </td>
-                     <td>epo:ChangeInformation -&gt; adms:Identifier [1..*]<br>epo:NonPublishedInformation -&gt; adms:Identifier [1..*]<br>epo-con:ContractModificationInformation (external) -&gt; adms:Identifier [0..1]<br></td>
+                     <td>epo:ChangeInformation -&gt; adms:Identifier [1..*]<br>epo:NonPublishedInformation -&gt; adms:Identifier [1..*]<br>epo-con:ContractModificationInformation -&gt; adms:Identifier [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:requestsRemedyType</td>
@@ -5010,17 +5010,17 @@
                   <tr>
                      <td>epo:specifiesBuyer</td>
                      <td>  </td>
-                     <td>epo-inv:Invoice (external) -&gt; epo:Buyer [1]<br>epo-cat:Catalogue (external) -&gt; epo:Buyer [0..*]<br>epo-ord:Order (external) -&gt; epo:Buyer [1]<br></td>
+                     <td>epo-inv:Invoice (external) -&gt; epo:Buyer [1]<br>epo-cat:Catalogue -&gt; epo:Buyer [0..*]<br>epo-ord:Order -&gt; epo:Buyer [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:specifiesCatalogueProvider</td>
                      <td> </td>
-                     <td>epo-cat:Catalogue (external) -&gt; epo:CatalogueProvider [0..1]<br>epo-cat:CatalogueResponse (external) -&gt; epo:CatalogueProvider [1]<br></td>
+                     <td>epo-cat:Catalogue -&gt; epo:CatalogueProvider [0..1]<br>epo-cat:CatalogueResponse -&gt; epo:CatalogueProvider [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:specifiesCatalogueReceiver</td>
                      <td> </td>
-                     <td>epo-cat:Catalogue (external) -&gt; epo:CatalogueReceiver [0..1]<br>epo-cat:CatalogueResponse (external) -&gt; epo:CatalogueReceiver [1]<br></td>
+                     <td>epo-cat:Catalogue -&gt; epo:CatalogueReceiver [0..1]<br>epo-cat:CatalogueResponse -&gt; epo:CatalogueReceiver [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:specifiesCleanVehicleDirectiveContractType</td>
@@ -5035,12 +5035,12 @@
                   <tr>
                      <td>epo:specifiesDeliverable</td>
                      <td></td>
-                     <td>epo:Contract -&gt; epo-con:Deliverable (external) [0..*]</td>
+                     <td>epo:Contract -&gt; epo-con:Deliverable [0..*]</td>
                   </tr>
                   <tr>
                      <td>epo:specifiesEconomicOperator</td>
                      <td>     </td>
-                     <td>epo:UnsubscribeFromProcedureRequest (external) -&gt; epo:OfferingParty [1]<br>epo:ProcurementDocumentsRequest (external) -&gt; epo:OfferingParty [1]<br>epo:TenderClarificationRequest (external) -&gt; epo:OfferingParty [1]<br>epo:ProcurementDocumentsProvision (external) -&gt; epo:OfferingParty [1]<br>epo:ExpressionOfInterest -&gt; epo:OfferingParty [0..*]<br>epo:TenderingQuestion (external) -&gt; epo:OfferingParty [1]<br></td>
+                     <td>epo:UnsubscribeFromProcedureRequest -&gt; epo:OfferingParty [1]<br>epo:ProcurementDocumentsRequest -&gt; epo:OfferingParty [1]<br>epo:TenderClarificationRequest -&gt; epo:OfferingParty [1]<br>epo:ProcurementDocumentsProvision -&gt; epo:OfferingParty [1]<br>epo:ExpressionOfInterest -&gt; epo:OfferingParty [0..*]<br>epo:TenderingQuestion -&gt; epo:OfferingParty [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo:specifiesProcurementCriteriaSummary</td>
@@ -5071,7 +5071,7 @@
                   <tr>
                      <td>epo:updatesContractValue</td>
                      <td></td>
-                     <td>epo-con:ContractAmendment (external) -&gt; epo:MonetaryValue [0..1]</td>
+                     <td>epo-con:ContractAmendment -&gt; epo:MonetaryValue [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo:usesChannel</td>
@@ -5093,17 +5093,17 @@
                      <td>The predetermined monetary value charged in addition to the price. The predetermined monetary value charged in addition to the price.
                         
                         </td>
-                     <td>epo-ord:AllowanceChargeInformation (external) -&gt; epo:MonetaryValue [1]<br>epo-ord:TaxInformation (external) -&gt; epo:MonetaryValue [0..1]<br></td>
+                     <td>epo-ord:AllowanceChargeInformation -&gt; epo:MonetaryValue [1]<br>epo-ord:TaxInformation -&gt; epo:MonetaryValue [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasBaseQuantity</td>
                      <td>The quantity at which the net monetary value applies.</td>
-                     <td>epo-cat:Price (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-cat:Price -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasCatalogueLineValidity</td>
                      <td>The relation indicating until when a Catalogue Line instance is applicable.</td>
-                     <td>epo-cat:CatalogueLine (external) -&gt; epo:Period [0..1]</td>
+                     <td>epo-cat:CatalogueLine -&gt; epo:Period [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasCountryOfOrigin</td>
@@ -5114,52 +5114,52 @@
                         The country of origin can be provided by  the buyer as a requirement or by the tenderer
                         information of the item to be provided.
                         </td>
-                     <td>epo-cat:Item (external) -&gt; at-voc:country [0..1]</td>
+                     <td>epo-cat:Item -&gt; at-voc:country [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasDeliveryLocation</td>
                      <td>Location delivery area where the Item can be ordered to the given price.
                         </td>
-                     <td>epo-cat:Price (external) -&gt; dct:Location [0..1]</td>
+                     <td>epo-cat:Price -&gt; dct:Location [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasExpectedDeliveryTime</td>
                      <td>The expected amount of time between the order and delivery of an item. 
                         </td>
-                     <td>epo-cat:Price (external) -&gt; epo:Duration [0..1]</td>
+                     <td>epo-cat:Price -&gt; epo:Duration [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasExternalSpecification</td>
                      <td>URI reference to external item information or specifications, e.g. web address.
                         </td>
-                     <td>epo-cat:Item (external) -&gt; epo:Document [0..*]</td>
+                     <td>epo-cat:Item -&gt; epo:Document [0..*]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasMaximumOrderQuantity</td>
                      <td>The maximum number of orderable units that can be ordered according to details provided
                         in the catalogue line, such as price.
                         </td>
-                     <td>epo-cat:CatalogueLine (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-cat:CatalogueLine -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasMinimumQuantityGuaranteedForDelivery</td>
                      <td>The minimum quantity of an item that is guaranteed by the seller to be delivered.
                         
                         </td>
-                     <td>epo-cat:CatalogueLine (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-cat:CatalogueLine -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasNetMonetaryValue</td>
                      <td>The price amount of an Item exclusive of taxes and after substracting price discounts.
                         </td>
-                     <td>epo-cat:Price (external) -&gt; epo:MonetaryValue [1]</td>
+                     <td>epo-cat:Price -&gt; epo:MonetaryValue [1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasNetQuantity</td>
                      <td>The net quantity of the item that is contained in each consumable unit, excluding
                         any packaging materials.
                         </td>
-                     <td>epo-cat:Item (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-cat:Item -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasOrderabableUnitFactorRate</td>
@@ -5172,13 +5172,13 @@
                         orderable unit. 
                         
                         </td>
-                     <td>epo-cat:Price (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-cat:Price -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasPriceValidity</td>
                      <td>The period of time when the Item can be ordered to the given price.
                         </td>
-                     <td>epo-cat:Price (external) -&gt; epo:Period [1]</td>
+                     <td>epo-cat:Price -&gt; epo:Period [1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasQualifiedValue</td>
@@ -5187,54 +5187,54 @@
                         Additional Information:
                         For example, the (0173-1#02-AAA026#007) drilling diameter of an item has value of
                         12 inches. </td>
-                     <td>epo-cat:ItemProperty (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-cat:ItemProperty -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasQuantity</td>
                      <td>  </td>
-                     <td>epo-ord:OrderLine (external) -&gt; epo:Quantity [1]<br>epo-inv:InvoiceLine (external) -&gt; epo:Quantity [1]<br>epo-con:Deliverable (external) -&gt; epo:Quantity [0..1]<br></td>
+                     <td>epo-ord:OrderLine -&gt; epo:Quantity [1]<br>epo-inv:InvoiceLine (external) -&gt; epo:Quantity [1]<br>epo-con:Deliverable -&gt; epo:Quantity [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-cat:hasQuantityThreshold</td>
                      <td>The minimum quantity of the item that can be ordered to the given net monetary value.</td>
-                     <td>epo-cat:Price (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-cat:Price -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-cat:isSubordinatedToContract</td>
                      <td></td>
-                     <td>epo-cat:Catalogue (external) -&gt; epo:Contract [0..1]</td>
+                     <td>epo-cat:Catalogue -&gt; epo:Contract [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:agreedByBuyer</td>
                      <td>Accepted by Buyer.</td>
-                     <td>epo-ful:ShipmentAgreement (external) -&gt; epo:Buyer [1..*]</td>
+                     <td>epo-ful:ShipmentAgreement -&gt; epo:Buyer [1..*]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasAssociatedDocument</td>
                      <td> Is related to a Document.
                          Is related to a Document.</td>
-                     <td>epo-ful:ReceiptAdvice (external) -&gt; epo:Document [0..1]<br>epo-ful:DespatchAdvice (external) -&gt; epo:Document [0..1]<br>epo-ful:DespatchLine (external) -&gt; epo:Document [0..1]<br></td>
+                     <td>epo-ful:ReceiptAdvice -&gt; epo:Document [0..1]<br>epo-ful:DespatchAdvice -&gt; epo:Document [0..1]<br>epo-ful:DespatchLine -&gt; epo:Document [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasCarrierConsignmentID</td>
                      <td>The identifier of the the Consignment given by the Carrier.</td>
-                     <td>epo-ful:Consignment (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-ful:Consignment -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasChargeableWeight</td>
                      <td>The </td>
-                     <td>epo-ful:Consignment (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:Consignment -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasConsigneeConsignmentID</td>
                      <td>The identifier of the the Consignment given by the Consignee.
                         </td>
-                     <td>epo-ful:Consignment (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-ful:Consignment -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasConsignmentDeclaredStatisticsValue</td>
                      <td></td>
-                     <td>epo-ful:Consignment (external) -&gt; epo:MonetaryValue [0..1]</td>
+                     <td>epo-ful:Consignment -&gt; epo:MonetaryValue [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasConsignmentFreeOnBoardValue</td>
@@ -5242,7 +5242,7 @@
                         damaged or destroyed, during shipping.
                         
                         at the exporter's customs frontier.</td>
-                     <td>epo-ful:Consignment (external) -&gt; epo:MonetaryValue [0..1]</td>
+                     <td>epo-ful:Consignment -&gt; epo:MonetaryValue [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasConsignmentInvoiceValue</td>
@@ -5251,54 +5251,54 @@
                         Additional Information:
                         This is a logistics information needed for logistics, security measures, customs check,
                         etc.</td>
-                     <td>epo-ful:Consignment (external) -&gt; epo:MonetaryValue [0..1]</td>
+                     <td>epo-ful:Consignment -&gt; epo:MonetaryValue [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasDeclaredStatisticalValue</td>
                      <td>The Monetary Value declared for statistical purposes. </td>
-                     <td>epo-ful:Consignment (external) -&gt; epo:MonetaryValue [0..1]<br>epo-ful:GoodsItem (external) -&gt; epo:MonetaryValue [0..*]<br></td>
+                     <td>epo-ful:Consignment -&gt; epo:MonetaryValue [0..1]<br>epo-ful:GoodsItem -&gt; epo:MonetaryValue [0..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasDespatchedQuantity</td>
                      <td>The Quantity that has been sent.</td>
-                     <td>epo-ful:DespatchLine (external) -&gt; epo:Quantity [1]</td>
+                     <td>epo-ful:DespatchLine -&gt; epo:Quantity [1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasDespatcherConsignmentID</td>
                      <td>The identifier of the the Consignment given by the Despatcher.
                         </td>
-                     <td>epo-ful:Consignment (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-ful:Consignment -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasDespatchPeriod</td>
                      <td>The time period when the Despatcher picks-up the Goods Items to be delivered.</td>
-                     <td>epo-ful:ShipmentInformation (external) -&gt; epo:Period [0..1]</td>
+                     <td>epo-ful:ShipmentInformation -&gt; epo:Period [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasEstimatedDeliveryPeriod</td>
                      <td>The forecasted time period given by the Despatcher to provide the goods and services.</td>
-                     <td>epo-ful:ShipmentInformation (external) -&gt; epo:Period [0..1]</td>
+                     <td>epo-ful:ShipmentInformation -&gt; epo:Period [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasFreightForwarderConsignmentID</td>
                      <td>The identifier of the the Consignment given by the Freight Forwarder.</td>
-                     <td>epo-ful:Consignment (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-ful:Consignment -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasGrossVolume</td>
                      <td>The amount of space that is required including the packaging. The amount of space that is required including the packaging.</td>
-                     <td>epo-ful:AbstractContainer (external) -&gt; epo:Quantity [0..1]<br>epo-ful:Consignment (external) -&gt; epo:Quantity [0..1]<br></td>
+                     <td>epo-ful:AbstractContainer -&gt; epo:Quantity [0..1]<br>epo-ful:Consignment -&gt; epo:Quantity [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasGrossWeight</td>
                      <td>The total mass of goods including the packaging.  The total mass of goods including the packaging. 
                         </td>
-                     <td>epo-ful:AbstractContainer (external) -&gt; epo:Quantity [0..1]<br>epo-ful:Consignment (external) -&gt; epo:Quantity [0..1]<br></td>
+                     <td>epo-ful:AbstractContainer -&gt; epo:Quantity [0..1]<br>epo-ful:Consignment -&gt; epo:Quantity [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasHeight</td>
                      <td>The vertical measurement.</td>
-                     <td>epo-ful:AbstractContainer (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:AbstractContainer -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasLength</td>
@@ -5306,70 +5306,70 @@
                         
                         Additional Information:
                         The length is the longer side between the length and the width.</td>
-                     <td>epo-ful:AbstractContainer (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:AbstractContainer -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasLoadingLength</td>
                      <td>The length </td>
-                     <td>epo-ful:Consignment (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:Consignment -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasLoadingMeter</td>
                      <td>The area of the Consignment in meters divided by the width of the truck, which is
                         considered to be 2.4 meters.
                         </td>
-                     <td>epo-ful:Consignment (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:Consignment -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasMaximumTemperature</td>
                      <td>The highest tolerated temperature.</td>
-                     <td>epo-ful:TemperatureSpecification (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:TemperatureSpecification -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasMinimumTemperature</td>
                      <td>The lowest tolerated temperature.</td>
-                     <td>epo-ful:TemperatureSpecification (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:TemperatureSpecification -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasNetVolume</td>
                      <td>The amount of space that is required without the packaging.</td>
-                     <td>epo-ful:AbstractContainer (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:AbstractContainer -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasNetWeight</td>
                      <td>The total mass of goods without the packaging. 
                          The total mass of goods without the packaging. </td>
-                     <td>epo-ful:AbstractContainer (external) -&gt; epo:Quantity [0..1]<br>epo-ful:Consignment (external) -&gt; epo:Quantity [0..1]<br></td>
+                     <td>epo-ful:AbstractContainer -&gt; epo:Quantity [0..1]<br>epo-ful:Consignment -&gt; epo:Quantity [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasOutstandingQuantity</td>
                      <td>The Quantity of non-despatched Goods Items.</td>
-                     <td>epo-ful:DespatchLine (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:DespatchLine -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasOversupplyQuantity</td>
                      <td></td>
-                     <td>epo-ful:ReceiptAdviceLine (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:ReceiptAdviceLine -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasReceivedQuantity</td>
                      <td></td>
-                     <td>epo-ful:ReceiptAdviceLine (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:ReceiptAdviceLine -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasRejectedQuantity</td>
                      <td></td>
-                     <td>epo-ful:ReceiptAdviceLine (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:ReceiptAdviceLine -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasShortQuantity</td>
                      <td></td>
-                     <td>epo-ful:ReceiptAdviceLine (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:ReceiptAdviceLine -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasTotalGoodsItemQuantity</td>
                      <td>Relation indicating the number of the Goods Items. Relation indicating the number of the Goods Items.</td>
-                     <td>epo-ful:AbstractContainer (external) -&gt; epo:Quantity [0..1]<br>epo-ful:Consignment (external) -&gt; epo:Quantity [0..1]<br></td>
+                     <td>epo-ful:AbstractContainer -&gt; epo:Quantity [0..1]<br>epo-ful:Consignment -&gt; epo:Quantity [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasTraceID</td>
@@ -5378,27 +5378,27 @@
                         Additional information:
                         An example is the EPC number used in RFID.
                         </td>
-                     <td>epo-ful:GoodsItem (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-ful:GoodsItem -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasTrackingID</td>
                      <td></td>
-                     <td>epo-ord:DeliveryInformation (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-ord:DeliveryInformation -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasTransportHandlingUnitQuantity</td>
                      <td>Relation indicating the number of the Transport Handling Unit.</td>
-                     <td>epo-ful:Consignment (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:Consignment -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasVehicleID</td>
                      <td>The identifier of the Transport Means.</td>
-                     <td>epo-ful:TransportMeans (external) -&gt; adms:Identifier [1]</td>
+                     <td>epo-ful:TransportMeans -&gt; adms:Identifier [1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasVehicleSegmentID</td>
                      <td>The identifier of a part of the Transport Means.</td>
-                     <td>epo-ful:TransportMeans (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-ful:TransportMeans -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:hasWidth</td>
@@ -5406,17 +5406,17 @@
                         
                         Additional Information:
                         The width is the shorter side between the length and the width.</td>
-                     <td>epo-ful:AbstractContainer (external) -&gt; epo:Quantity [0..1]</td>
+                     <td>epo-ful:AbstractContainer -&gt; epo:Quantity [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:specifiesBuyer</td>
                      <td></td>
-                     <td>epo-ful:ReceiptAdvice (external) -&gt; epo:Buyer [0..1]</td>
+                     <td>epo-ful:ReceiptAdvice -&gt; epo:Buyer [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ful:specifiesPlaceOfDespatch</td>
                      <td>Relation indicating the Location of the Despatch of the Goods Items to be delivered.</td>
-                     <td>epo-ful:ShipmentInformation (external) -&gt; dct:Location [0..1]</td>
+                     <td>epo-ful:ShipmentInformation -&gt; dct:Location [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-inv:hasBankingIdentifier</td>
@@ -5458,7 +5458,7 @@
                   <tr>
                      <td>epo-inv:hasItemClassificationIdentifier</td>
                      <td></td>
-                     <td>epo-cat:Item (external) -&gt; adms:Identifier [0..*]</td>
+                     <td>epo-cat:Item -&gt; adms:Identifier [0..*]</td>
                   </tr>
                   <tr>
                      <td>epo-inv:hasMandateIdentifier</td>
@@ -5496,47 +5496,47 @@
                   <tr>
                      <td>epo-not:announcesRole</td>
                      <td></td>
-                     <td>epo-not:ResultNotice (external) -&gt; epo:AgentInRole [0..*]</td>
+                     <td>epo-not:ResultNotice -&gt; epo:AgentInRole [0..*]</td>
                   </tr>
                   <tr>
                      <td>epo-not:refersToRole</td>
                      <td></td>
-                     <td>epo-not:ResultNotice (external) -&gt; epo:AgentInRole [1..*]</td>
+                     <td>epo-not:ResultNotice -&gt; epo:AgentInRole [1..*]</td>
                   </tr>
                   <tr>
                      <td>epo-ord:concernsContract</td>
                      <td></td>
-                     <td>epo-ord:ContractInformation (external) -&gt; epo:Contract [1]</td>
+                     <td>epo-ord:ContractInformation -&gt; epo:Contract [1]</td>
                   </tr>
                   <tr>
                      <td>epo-ord:concernsOriginatorRequest</td>
                      <td></td>
-                     <td>epo-ord:OriginatorInformation (external) -&gt; epo:OriginatorRequest [0..1]</td>
+                     <td>epo-ord:OriginatorInformation -&gt; epo:OriginatorRequest [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ord:hasAmountDueForPayment</td>
                      <td> </td>
-                     <td>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [1]<br>epo-ord:Order (external) -&gt; epo:MonetaryValue [1]<br></td>
+                     <td>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [1]<br>epo-ord:Order -&gt; epo:MonetaryValue [1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ord:hasDeliveryPeriod</td>
                      <td> </td>
-                     <td>epo-ord:OrderResponseInformation (external) -&gt; epo:Period [0..1]<br>epo-ord:DeliveryInformation (external) -&gt; epo:Period [0..1]<br></td>
+                     <td>epo-ord:OrderResponseInformation -&gt; epo:Period [0..1]<br>epo-ord:DeliveryInformation -&gt; epo:Period [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ord:hasGrossMonetaryValue</td>
                      <td></td>
-                     <td>epo-cat:Price (external) -&gt; epo:MonetaryValue [0..1]</td>
+                     <td>epo-cat:Price -&gt; epo:MonetaryValue [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ord:hasPrepaidAmount</td>
                      <td> </td>
-                     <td>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [0..*]<br>epo-ord:Order (external) -&gt; epo:MonetaryValue [0..1]<br></td>
+                     <td>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [0..*]<br>epo-ord:Order -&gt; epo:MonetaryValue [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ord:hasRoundingAmount</td>
                      <td> </td>
-                     <td>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [0..1]<br>epo-ord:Order (external) -&gt; epo:MonetaryValue [0..1]<br></td>
+                     <td>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [0..1]<br>epo-ord:Order -&gt; epo:MonetaryValue [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ord:hasSellerOrderID</td>
@@ -5545,57 +5545,57 @@
                         Additional Information:
                         This identifier is different than the identifier of the Order given by the Buyer and
                         it is useful for internal purposes.</td>
-                     <td>epo-ord:Order (external) -&gt; adms:Identifier [0..1]</td>
+                     <td>epo-ord:Order -&gt; adms:Identifier [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ord:hasTaxInformation</td>
                      <td></td>
-                     <td>epo:Contract -&gt; epo-ord:TaxInformation (external) [0..1]</td>
+                     <td>epo:Contract -&gt; epo-ord:TaxInformation [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ord:hasTotalAllowanceAmount</td>
                      <td> </td>
-                     <td>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [0..*]<br>epo-ord:Order (external) -&gt; epo:MonetaryValue [0..1]<br></td>
+                     <td>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [0..*]<br>epo-ord:Order -&gt; epo:MonetaryValue [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ord:hasTotalChargeAmount</td>
                      <td> </td>
-                     <td>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [0..*]<br>epo-ord:Order (external) -&gt; epo:MonetaryValue [0..1]<br></td>
+                     <td>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [0..*]<br>epo-ord:Order -&gt; epo:MonetaryValue [0..1]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ord:hasTotalLineAmount</td>
                      <td> </td>
-                     <td>epo-ord:Order (external) -&gt; epo:MonetaryValue [1]<br>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [1..*]<br></td>
+                     <td>epo-ord:Order -&gt; epo:MonetaryValue [1]<br>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [1..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ord:hasTotalTaxExclusiveAmount</td>
                      <td> </td>
-                     <td>epo-ord:Order (external) -&gt; epo:MonetaryValue [0..1]<br>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [1..*]<br></td>
+                     <td>epo-ord:Order -&gt; epo:MonetaryValue [0..1]<br>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [1..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ord:hasTotalTaxInclusiveAmount</td>
                      <td> </td>
-                     <td>epo-ord:Order (external) -&gt; epo:MonetaryValue [0..1]<br>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [1..*]<br></td>
+                     <td>epo-ord:Order -&gt; epo:MonetaryValue [0..1]<br>epo-inv:Invoice (external) -&gt; epo:MonetaryValue [1..*]<br></td>
                   </tr>
                   <tr>
                      <td>epo-ord:implementsContract</td>
                      <td></td>
-                     <td>epo-ord:OrderResponse (external) -&gt; epo:Contract [0..1]</td>
+                     <td>epo-ord:OrderResponse -&gt; epo:Contract [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ord:specifiesBuyer</td>
                      <td></td>
-                     <td>epo-ord:OrderResponse (external) -&gt; epo:Buyer [0..1]</td>
+                     <td>epo-ord:OrderResponse -&gt; epo:Buyer [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ord:specifiesDeliveryAgreementLocation</td>
                      <td></td>
-                     <td>epo-ord:DeliveryAgreement (external) -&gt; dct:Location [0..1]</td>
+                     <td>epo-ord:DeliveryAgreement -&gt; dct:Location [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-ord:specifiesPlaceOfDelivery</td>
                      <td></td>
-                     <td>epo-ord:DeliveryInformation (external) -&gt; dct:Location [0..1]</td>
+                     <td>epo-ord:DeliveryInformation -&gt; dct:Location [0..1]</td>
                   </tr>
                   <tr>
                      <td>epo-sub:answersQuestion</td>
@@ -5696,7 +5696,7 @@
             developed in the context of <a href="https://joinup.ec.europa.eu/solution/eprocurement-ontology">the
                eProcurement Ontology initiative</a>.</p>
          <p>The template of this report is based on the <a href="https://github.com/thomaspark/pubcss">PubCSS library</a>.</p>
-         <p>© xxx</p>
+         <p>© Publications Office of the European Union, 2023</p>
       </footer><script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script><script src="static/js/jquery-3.4.1.min.js"></script><script src="static/js/jquery-ui.min.js"></script><script src="static/js/bootstrap.min.js"></script><script src="static/js/jquery.tocify.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.4/js/dataTables.buttons.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.4/js/buttons.print.min.js"></script><script>
             $(function () {
             //Calls the tocify method on your HTML div.
