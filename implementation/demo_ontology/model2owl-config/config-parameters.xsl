@@ -44,8 +44,8 @@
     <xsl:variable name="coreArtefactURI"
         select="fn:concat($base-ontology-uri, $defaultDelimiter, $moduleReference)"/>
 
-    <!-- when a delimiter is missing in the base URI of a namespace, use this default value-->
-    <xsl:variable name="defaultDelimiter" select="'#'"/>
+    <!-- when a delimiter is missing in the base URI of a namespace, use this default value. mk removed # to check to see whether this avoids ontology#core issues that refers to a fragment rather than a module-->
+    <xsl:variable name="defaultDelimiter" select="''"/>
 
     <!-- types of elements and names for attribute types that are acceptable to produce object properties -->
     <xsl:variable name="acceptableTypesForObjectProperties"
