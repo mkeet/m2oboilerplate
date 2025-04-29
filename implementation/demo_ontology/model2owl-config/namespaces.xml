@@ -15,17 +15,7 @@
     <prefix name="eli" value="http://data.europa.eu/eli/ontology#"/>
 
     <prefix name="epo" value="http://data.europa.eu/a4g/ontology#"/>
-    <prefix name="epo-acc" value="http://data.europa.eu/a4g/ontology#"/>
-    <prefix name="epo-cat" value="http://data.europa.eu/a4g/ontology#"/>
-    <prefix name="epo-ecat" value="http://data.europa.eu/a4g/ontology#"/>
-    <prefix name="epo-con" value="http://data.europa.eu/a4g/ontology#"/>
-    <prefix name="epo-ful" value="http://data.europa.eu/a4g/ontology#"/>
-    <prefix name="epo-inv" value="http://data.europa.eu/a4g/ontology#"/>
-    <prefix name="epo-not" value="http://data.europa.eu/a4g/ontology#"/>
-    <prefix name="epo-ord" value="http://data.europa.eu/a4g/ontology#"/>
-    <prefix name="epo-sub" value="http://data.europa.eu/a4g/ontology#"/>
-    <prefix name="epo-eva" value="http://data.europa.eu/a4g/ontology#"/>
-    <prefix name="epo-awa" value="http://data.europa.eu/a4g/ontology#"/>
+
 
     <prefix name="nuts" value="http://data.europa.eu/nuts/"/>
     <prefix name="reg2015" value="http://data.europa.eu/a4g/extension/ontology#"/>
